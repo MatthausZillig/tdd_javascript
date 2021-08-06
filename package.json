@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watchAll"
+    "test": "yarn jest",
+    "test:watch": "yarn jest --watchAll"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
     "@types/jest": "^26.0.24",
+    "babel-jest": "^27.0.6",
     "jest": "^27.0.6"
   }
 }
